@@ -67,3 +67,10 @@ You can also access repositories on {% data variables.product.prodname_dotcom %}
 ### Further reading
 
 - [Working with Remotes](https://git-scm.com/book/en/Git-Basics-Working-with-Remotes) from the _Pro Git_ book site
+cargo install --force --git https://github.com/paritytech/substrate subkey
+curl https://sh.rustup.rs -sSf | sh
+
+rustup update nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
+rustup update stable
+cargo install --git https://github.com/alexcrichton/wasm-gc
